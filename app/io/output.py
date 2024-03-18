@@ -3,10 +3,10 @@ import pandas as pd
 
 def output_to_console(text):
     """
-    Output the user's input to the console.
+    Output the user's input_test to the console.
 
     Args:
-        text (Any): The user's input.
+        text (Any): The user's input_test.
     """
     print(text)
 

@@ -3,10 +3,10 @@ import pandas as pd
 
 def input_from_console():
     """
-    Input the user's input from the console.
+    Input the user's input_test from the console.
 
     Returns:
-        str: The user's input from the console.
+        str: The user's input_test from the console.
     """
     text = input("Please enter your text: ")
     return text
