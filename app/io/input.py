@@ -35,7 +35,7 @@ def read_from_file_using_pandas(file_path):
         file_path (str): The path to the file from which to read the text.
 
     Returns:
-        str: The text read from the file.
+        pd.DataFrame: The text read from the file.
     """
     text = pd.read_csv(file_path)
     return text

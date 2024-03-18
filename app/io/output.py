@@ -19,7 +19,7 @@ def write_to_file(text, file_path):
         text (str): The text to be written to the file.
         file_path (str): The path to the file to which to write the text.
     """
-    with open(file_path, "w") as f:
+    with open(file_path, "a") as f:
         f.write(text)
 
 
@@ -31,4 +31,4 @@ def write_to_file_using_pandas(data_frame, file_path):
         data_frame (df): The data frame to be written to the file.
         file_path (str): The path to the file to which to write the text.
     """
-    data_frame.to_csv(file_path)
+    data_frame.to_csv(file_path, mode="a")
