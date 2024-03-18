@@ -6,7 +6,7 @@ def output_to_console(text):
     Output the user's input to the console.
 
     Args:
-        text (str): The user's input.
+        text (Any): The user's input.
     """
     print(text)
 
